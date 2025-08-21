@@ -106,19 +106,10 @@ layout: default
       <figure class="empty-review">
         {% if page.cover %}
           <img class="empty-review-cover" alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}">
-          <figcaption class="empty-review-caption">
-            Cover of <em>{{ page.title }}</em>
-          </figcaption>
         {% elsif page.olid %}
-          <img class="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false">
-          <figcaption class="empty-review-caption">
-            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.
-          </figcaption>
+          <img class="empty-review-cover" alt="{{ page.title }} cover" src="https://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false" onerror="this.style.display='none'; this.nextElementSibling.style.display='none';">
         {% elsif page.isbn %}
-          <img class="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
-          <figcaption class="empty-review-caption">
-            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.
-          </figcaption>
+          <img class="empty-review-cover" alt="{{ page.title }} cover" src="https://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false" onerror="this.style.display='none'; this.nextElementSibling.style.display='none';">
         {% endif %}
       </figure>
       {% assign status = page.status | upcase %}
@@ -129,19 +120,10 @@ layout: default
       <figure>
         {% if page.cover %}
           <img alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}">
-          <figcaption>
-            Cover of <em>{{ page.title }}</em>
-          </figcaption>
         {% elsif page.olid %}
-          <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false">
-          <figcaption>
-            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.
-          </figcaption>
+          <img alt="{{ page.title }} cover" src="https://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false" onerror="this.style.display='none'; this.nextElementSibling.style.display='none';">
         {% elsif page.isbn %}
-          <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
-          <figcaption>
-            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.
-          </figcaption>
+          <img alt="{{ page.title }} cover" src="https://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false" onerror="this.style.display='none'; this.nextElementSibling.style.display='none';">
         {% endif %}
       </figure>
       <br class="mobile-break" clear="right">
@@ -165,93 +147,73 @@ layout: default
         display: block;
         margin-right: auto;
         margin-left: auto;
-
       }
-      figure  > img {
-
-           vertical-align: top;
-           display: block;
-           margin-right: 0px;
-           margin-left: 0px;
-           padding: 0px;
-
+      
+      figure > img {
+        vertical-align: top;
+        display: block;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 0px;
       }
+      
       figure figcaption {
-
         display: block;
         caption-side: bottom;
         text-align: center;
       }
 
-      @media screen and (min-width: 600px)  {
-
-        .empty-review{
+      @media screen and (min-width: 600px) {
+        .empty-review {
           float: left;
-          display: block; /* in-line block; */
-          margin: 0px 0px 0px 0px;  /* adjust as needed */
-          padding: 0px 0px 0px 20px;
-         /* top right bottom left */
-          }
+          display: block;
+          margin: 0 20px 0 0;
+          padding: 0;
+        }
 
-         .empty-review-caption {
-                  caption-side: left;
-                  text-align: left;
+        .empty-review-cover {
+          width: 250px;
+          vertical-align: top;
+          display: block;
+        }
 
+        figure {
+          float: left;
+          display: block;
+          margin: 0 20px 0 0;
+          padding: 0;
+        }
 
-                  }
+        figure img {
+          width: 300px;
+          vertical-align: top;
+          display: block;
+        }
 
-          .empty-review-cover {
-              width:250px;
-              vertical-align: top;
-              padding-right: 40px;
-              }
+        .mobile-break { 
+          display: none; 
+        }
+      }
 
-          figure {
-
-                float: right;
-                display: in-line block; /* in-line block; */
-                margin: 0px 0px 0px 0px;  /* adjust as needed */
-                padding: 0px 0px 0px 20px;
-               /* top right bottom left */
-              }
-
-          figure img {
-                  width:300px;
-                  vertical-align: top;
-
-                }
-
-          figure figcaption {
-                  caption-side: bottom;
-                  text-align: left;
-
-                  }
-
-          .mobile-break { display: none; }
-
-  /* =Blockquote
-  -------------------------------------------------------------- */
-  blockquote {
-
-      position: relative;
-      marign: 0px;
-      display: table;
-
-  }
-  blockquote:before, blockquote:after {
-
-   /* properties to format the block quotes /*
-
-  }
-  blockquote:before {
-      top: 0;
-      left: 0;
-
-
-  }
-  blockquote:after {
-      top: 0;
-      right: 0;
-
-  }
+      /* =Blockquote
+      -------------------------------------------------------------- */
+      blockquote {
+        position: relative;
+        margin: 0px;
+        display: table;
+      }
+      
+      blockquote:before, blockquote:after {
+        /* properties to format the block quotes */
+      }
+      
+      blockquote:before {
+        top: 0;
+        left: 0;
+      }
+      
+      blockquote:after {
+        top: 0;
+        right: 0;
+      }
 </style>

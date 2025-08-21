@@ -2,12 +2,15 @@
 layout: book-shelf
 title: bookshelf
 permalink: /books/
-nav: false
+nav: true
+nav_order: 7
 collection: books
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+Studying social justice and environmental issues is not a happy task most of the time. It is about transgressed planetary boundaries, time running out, and inequality being reproduced over and over in so many different directions.
 
-## Books that I am reading, have read, or will read
+I get a lot of hope from people and community, but I also have found books that, for how they help me imagine the future, in a fictional or an academic way, have made me feel like we can still win. They are little pockets of hope and warmth (in the best of ways). Here they are, I hope they are as helpful to you as they have been to me. 
+
+And yes, I recommend them all as a birthday gift.
+
+### Books that changed me

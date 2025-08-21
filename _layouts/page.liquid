@@ -12,6 +12,28 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">{{ page.description }}</p>
+    
+    {% if page.university or page.semester %}
+      <div class="teaching-meta">
+        {% if page.university %}
+          <span class="teaching-info">
+            <a href="{{ page.university | slugify | prepend: '/teaching/university/' | relative_url }}">
+              <i class="fas fa-university"></i> {{ page.university }}
+            </a>
+          </span>
+        {% endif %}
+        {% if page.university and page.semester %}
+          <span class="teaching-info">&nbsp; &middot; &nbsp;</span>
+        {% endif %}
+        {% if page.semester %}
+          <span class="teaching-info">
+            <a href="{{ page.semester | slugify | prepend: '/teaching/semester/' | relative_url }}">
+              <i class="fas fa-calendar"></i> {{ page.semester }}
+            </a>
+          </span>
+        {% endif %}
+      </div>
+    {% endif %}
   </header>
 
   <article>

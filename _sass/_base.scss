@@ -693,12 +693,13 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    color: #005603cc;
+    border-bottom: 2px solid #2c3e50;
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+    font-weight: 600;
   }
 }
 
@@ -1425,5 +1426,38 @@ figure.cover {
   /* mouse over link */
   a.cover-link:hover {
     color: #23212d !important;
+  }
+}
+
+// Teaching meta information styling
+.teaching-meta {
+  margin: 1rem 0;
+  
+  .teaching-info {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    
+    a {
+      color: var(--global-text-color-light);
+      text-decoration: none;
+      
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+    
+    i {
+      margin-right: 0.25rem;
+      color: var(--global-text-color-light);
+    }
+    
+    &:hover {
+      color: var(--global-theme-color);
+      transition: color 0.2s ease;
+    }
   }
 }

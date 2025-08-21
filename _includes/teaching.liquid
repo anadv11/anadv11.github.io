@@ -1,0 +1,65 @@
+<div class="col">
+  <a href="{{ teaching.url | relative_url }}" class="text-decoration-none">
+    <div class="card h-100 hoverable border-0 shadow-sm transition-all">
+      {% if teaching.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=teaching.img
+          sizes = "250px"
+          alt="teaching thumbnail"
+          class="card-img-top"
+        %}
+      {% elsif teaching.image and teaching.image.path %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=teaching.image.path
+          sizes = "250px"
+          alt=teaching.image.alt
+          class="card-img-top"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h5 class="card-title fw-bold">{{ teaching.title }}</h5>
+        <p class="card-text text-muted">{{ teaching.description }}</p>
+        
+        {% if teaching.university %}
+          <p class="card-text"><small class="text-muted">
+            <i class="fas fa-university"></i> {{ teaching.university }}
+          </small></p>
+        {% endif %}
+        
+        {% if teaching.venue %}
+          <p class="card-text"><small class="text-muted">
+            <i class="fas fa-map-marker-alt"></i> {{ teaching.venue }}
+          </small></p>
+        {% endif %}
+        
+        {% if teaching.semester %}
+          <p class="card-text"><small class="text-muted">
+            <i class="fas fa-calendar"></i> {{ teaching.semester }}
+          </small></p>
+        {% endif %}
+        
+        {% if teaching.date %}
+          <p class="card-text"><small class="text-muted">
+            <i class="fas fa-calendar"></i> {{ teaching.date }}
+          </small></p>
+        {% endif %}
+        
+        {% if teaching.links %}
+          <div class="row ml-1 mr-1 p-0 mt-2">
+            {% for link in teaching.links %}
+              <div class="icon me-2" data-toggle="tooltip" title="{{ link.label }}">
+                <a href="{{ link.url }}" class="text-muted">
+                  <i class="{{ link.icon_pack }} {{ link.icon }} fa-lg"></i>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </a>
+</div> 

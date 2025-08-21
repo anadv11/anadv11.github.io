@@ -2,17 +2,16 @@
   "basics": {
     "name": "Ana Díaz Vidal",
     "label": "Environmental Policy Researcher",
-    "image": "",
-    "email": "anadividal11@gmail.com",
-    "phone": "+33 0638055324",
+    "image": "prof_pic.jpg",
+    "email": "coming soon",
     "url": "https://www.linkedin.com/in/ana-diaz-vidal/",
     "summary": "I work and learn best at the crossroads of disciplines, with systems thinking and ecology at my core. I explore political economy, policy analysis, and the theorization of economy-environment relations, focusing on post-growth, degrowth, sufficiency and Buen Vivir.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Paris",
-      "countryCode": "FR",
-      "region": "Ile-de-France"
+      "city": "Barcelona",
+      "countryCode": "ES",
+      "region": "Catalunya"
     },
     "profiles": [
       {
@@ -50,6 +49,20 @@
         "Developed data structures and analysis methods using Python and AI.",
         "Conducted 30+ expert interviews for the 2024 AUSIREC programme.",
         "Supported 3-year institutional strategy development."
+      ]
+    },
+    {
+      "name": "OECD",
+      "position": "Policy Analyst",
+      "url": "https://www.oecd.org/en/networks/climate-change-expert-group-ccxg.html",
+      "startDate": "2025-02-01",
+      "endDate": "2025-07-01",
+      "summary": "Policy research for the Climate Change Experts Group",
+      "highlights": [
+        "Used machine learning and web scraping to analyse UNFCCC policy documents (such as NDCs and BTRs)",
+        "Researched and drafted case studies on climate finance and innovative policy solutions",
+        "Reviewed OECD papers on climate policy in the framework of the UNFCCC",
+        "Supported the organisation of the March 2025 Global Forum on the Environment and Climate Change"
       ]
     },
     {
