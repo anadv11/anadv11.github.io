@@ -37,8 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching-workshops-and-talks",
-          title: "teaching, workshops and talks",
+        },{id: "nav-speaking-et-al",
+          title: "speaking et al.",
           description: "Courses I taught, talks I gave and workshops I facilitated.",
           section: "Navigation",
           handler: () => {
@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/art/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-happy-bday",
+        
+          title: "Happy Bday!",
+        
+        description: "a bday post",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/bday/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -166,17 +177,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
           
         },
       },{id: "post-a-post-with-chart-js",
@@ -399,26 +399,26 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "art-mountain-serenity",
-          title: 'Mountain Serenity',
-          description: "A traditional oil painting capturing the peaceful essence of mountain landscapes at dawn, using classical techniques and natural color palettes.",
+      },{id: "art-le-déficit",
+          title: 'le déficit',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/deficit/";
+            },},{id: "art-le-petrole",
+          title: 'le petrole',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/petrole/";
+            },},{id: "art-abstract-harmony",
+          title: 'Abstract Harmony',
+          description: "A mixed media exploration of color theory and abstract composition.",
           section: "Art",handler: () => {
               window.location.href = "/art/traditional-painting/";
-            },},{id: "art-test-art-piece",
-          title: 'Test Art Piece',
-          description: "A simple test to see if art pieces are being loaded.",
+            },},{id: "art-berlin",
+          title: 'Berlin',
+          description: "",
           section: "Art",handler: () => {
-              window.location.href = "/art/test-art/";
-            },},{id: "art-digital-dreams",
-          title: 'Digital Dreams',
-          description: "A vibrant exploration of digital aesthetics and modern art techniques, featuring bold colors and geometric patterns.",
-          section: "Art",handler: () => {
-              window.location.href = "/art/sample-digital-art/";
-            },},{id: "art-urban-geometry",
-          title: 'Urban Geometry',
-          description: "A black and white photographic exploration of urban architecture, focusing on geometric patterns and the interplay of light and shadow in cityscapes.",
-          section: "Art",handler: () => {
-              window.location.href = "/art/urban-photography/";
+              window.location.href = "/art/Berlin/";
             },},{id: "books-doppelganger-a-trip-into-the-mirror-world",
           title: 'Doppelganger: A Trip into the Mirror World',
           description: "",
