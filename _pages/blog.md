@@ -109,7 +109,9 @@ pagination:
       {% assign postlist = site.posts %}
     {% endif %}
 
-    {% for post in postlist %}
+    <!-- Only show featured posts (birthday post) -->
+    {% assign featured_posts = postlist | where: "tags", "featured" %}
+    {% for post in featured_posts %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -190,7 +192,10 @@ pagination:
   </ul>
 
 {% if page.pagination.enabled %}
-{% include pagination.liquid %}
+  {% assign featured_posts = paginator.posts | where: "tags", "featured" %}
+  {% if featured_posts.size > 0 %}
+    {% include pagination.liquid %}
+  {% endif %}
 {% endif %}
 
 </div>
