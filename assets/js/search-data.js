@@ -409,9 +409,9 @@ ninja.data = [{
           description: "",
           section: "Art",handler: () => {
               window.location.href = "/art/petrole/";
-            },},{id: "art-abstract-harmony",
-          title: 'Abstract Harmony',
-          description: "A mixed media exploration of color theory and abstract composition.",
+            },},{id: "art-coming-soon",
+          title: 'Coming soon',
+          description: "other stuff",
           section: "Art",handler: () => {
               window.location.href = "/art/traditional-painting/";
             },},{id: "art-berlin",
