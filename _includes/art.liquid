@@ -1,8 +1,11 @@
 <div class="col">
-  <a href="{% if art.redirect %}{{ art.redirect }}{% else %}{{ art.url | relative_url }}{% endif %}">
+  {% if art.category == "collage" %}
+    <!-- Collage items: show lightbox modal -->
     <div class="card h-100 hoverable">
       {% if art.img and art.img != "" %}
-        <img src="{{ art.img | relative_url }}" class="card-img-top" alt="{{ art.title }}" style="height: 200px; object-fit: cover;">
+        <div class="art-image-container">
+          <img src="{{ art.img | relative_url }}" class="card-img-top art-thumbnail" alt="{{ art.title }}" style="height: 200px; object-fit: cover; cursor: pointer;" onclick="openCollageModal('{{ art.img | relative_url }}', '{{ art.title }}', '{{ art.description }}', '{{ art.medium }}', '{{ art.year }}')">
+        </div>
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ art.title }}</h2>
@@ -25,5 +28,34 @@
         </div>
       </div>
     </div>
-  </a>
+  {% else %}
+    <!-- Non-collage items: keep as regular clickable links -->
+    <a href="{% if art.redirect %}{{ art.redirect }}{% else %}{{ art.url | relative_url }}{% endif %}">
+      <div class="card h-100 hoverable">
+        {% if art.img and art.img != "" %}
+          <img src="{{ art.img | relative_url }}" class="card-img-top" alt="{{ art.title }}" style="height: 200px; object-fit: cover;">
+        {% endif %}
+        <div class="card-body">
+          <h2 class="card-title">{{ art.title }}</h2>
+          <p class="card-text">{{ art.description }}</p>
+          <div class="row ml-1 mr-1 p-0">
+            {% if art.medium %}
+              <div class="art-medium">
+                <div class="icon" data-toggle="tooltip" title="Medium">
+                  <i class="fa-solid fa-palette"></i> {{ art.medium }}
+                </div>
+              </div>
+            {% endif %}
+            {% if art.year %}
+              <div class="art-year">
+                <div class="icon" data-toggle="tooltip" title="Year Created">
+                  <i class="fa-solid fa-calendar"></i> {{ art.year }}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </a>
+  {% endif %}
 </div>

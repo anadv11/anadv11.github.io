@@ -1,6 +1,6 @@
 ---
 layout: page
-title: teaching, workshops and talks
+title: speaking et al.
 permalink: /teaching/
 description: Courses I taught, talks I gave and workshops I facilitated.
 nav: true

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://web.ub.edu/en'>Universitat de Barcelona</a>. PhD Candidate
+subtitle: <a href='https://web.ub.edu/en'>Universitat de Barcelona</a>. PhD Candidate (this website is a work in progress)
 
 profile:
   align: left
@@ -30,6 +30,6 @@ I’m currently doing a PhD in post‑growth policy at the University of Barcelo
 
 My aim is to analyse post-growth policies and their interaction with dominant economic discourse and practices. I am most interested in creating space for alternatives to flourish and on how to nourish better futures. While I am based in the School of Sociology, I have a multi-disciplinary background and I often draw from Political Economy, Geography, Ecological Economics and STS in my work. Methodologically, I like to draw on discuourse analysis and use computational social science approaches.
 
-In the past, I have worked as a policy researcher at the OECD and REN21, focusing on issues of energy and climate negotiations in the framework of the UNFCCC.
+In the past, I have worked as a policy researcher at the OECD and REN21, focusing on issues of energy and climate negotiations in the framework of the UNFCCC. I graduated from Sciences Po and the University of Edinburgh.
 
 I am an avid crossword solver, poetry writer, crafter and sport-doer. I also love reading.
