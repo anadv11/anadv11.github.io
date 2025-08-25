@@ -58,9 +58,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/art/";
           },
-        },{id: "post-happy-bday",
+        },{id: "post-bday",
         
-          title: "Happy Bday!",
+          title: "Bday?",
         
         description: "a bday post",
         section: "Posts",
