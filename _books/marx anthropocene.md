@@ -36,3 +36,4 @@ This is a piece that attempts to be a re-interpretation of late Marx, and his mo
 Saito calls for better dialogue and understanding of the links between the emerging degrowth movement, and the Marxism(s) of the 21st century.
 
 A very good read.
+

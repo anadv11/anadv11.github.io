@@ -16,7 +16,7 @@ goodreads_review:
 status: Finished
 ---
 
-Just finished reading Paresse pour tous, a fiction book where Klent narrates Emilien Long's presidential campaign in France. Emilien, fictional nobel prize winner that reminds us of a few other French economists, sets to defend *the right to laziness in the 21st century* and proposes a three day work week that will end the current productivist framework. A reformist approach to utopia
+Paresse pour tous i a fiction book where Klent narrates Emilien Long's presidential campaign in France. Emilien, fictional nobel prize winner that reminds us of a few other French economists, sets to defend *the right to laziness in the 21st century* and proposes a three day work week that will end the current productivist framework. A reformist approach to utopia
 
 This book is an excellent summer read because it is well researched and educative but it is still really light. It is also a great counter-balance to the increasingly gloomy news we are getting almost everywhere in the world...
 
@@ -30,3 +30,4 @@ This book was also extremely interesting to read just after the French parliamen
 The alternative of the book is showing what we could have learnt from covid, when we realised that the threshold of the possible had been consutructed and imposed by neoliberal and productivist forces. An alternative that screams: "we can slow down".
 
 In 2024, the response is completely different. There was indeed a leftist alternative, but it was clearly one responding to the increasingly polarised and fragmented France we see now, one focused on the ever rising inequality that is actually a consequence of those rules we never changed...
+

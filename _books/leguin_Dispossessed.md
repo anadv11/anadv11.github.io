@@ -16,3 +16,5 @@ goodreads_review:
 status: Finished
 ---
 
+Review coming soon
+

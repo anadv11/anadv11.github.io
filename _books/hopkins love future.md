@@ -23,3 +23,4 @@ The book both seeks to convince the reader that (re)imagining the future is the 
 The many case studies and the practical advice make the book both a repository of hope, and a toolset for change (with Hopkins calling for readers to join his future building efforts), but while reading how the _impossible_ was actually just something _not yet done_ is encouraging, for me, the highlight of the book were the broader reflections on how imagining the future and remembering the past are closer together than it seems (ch2), the need to mobilise longing as a tool to drive change (ch3) and the multiple ways in which time can be understood beyond Newton's idea that all time flows equally (ch8).
 
 I am a little bit more in love with the future than I was before the read.
+

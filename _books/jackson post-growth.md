@@ -22,3 +22,4 @@ It gives a long term perspective: capitalism has not been with us forever and we
 
 Great thinkers are introduced in every single chapter: my favourite wete Rosa Luxemburg, Hannah Arendt and Mill (who already talked about the stationary state, by the way!) 
 
+
