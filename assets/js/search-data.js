@@ -58,15 +58,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/art/";
           },
-        },{id: "post-my-first-post",
+        },{id: "post-la-pluja-no-sap-ploure",
         
-          title: "My first post",
+          title: "La pluja no sap ploure.",
         
-        description: "This is my first post",
+        description: "Reflections on (un)natural disaster.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/images/";
+            window.location.href = "/blog/2024/Valencia-plutja/";
           
         },
       },{id: "art-le-déficit",
