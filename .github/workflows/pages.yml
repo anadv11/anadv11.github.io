@@ -24,6 +24,7 @@ jobs:
         with:
           ruby-version: 3.1
           bundler-cache: true
+          bundler-version: latest
       - name: Debug Bundler
         run: |
           echo "=== Ruby Version ==="
@@ -33,7 +34,7 @@ jobs:
           echo "=== Bundle Environment ==="
           bundle env
           echo "=== Gemfile.lock ==="
-          cat Gemfile.lock
+          if [ -f Gemfile.lock ]; then cat Gemfile.lock; else echo "No Gemfile.lock found"; fi
           echo "=== Bundle Install (verbose) ==="
           bundle install --verbose
       - name: Setup Pages
