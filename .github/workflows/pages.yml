@@ -24,6 +24,18 @@ jobs:
         with:
           ruby-version: 3.1
           bundler-cache: true
+      - name: Debug Bundler
+        run: |
+          echo "=== Ruby Version ==="
+          ruby --version
+          echo "=== Bundler Version ==="
+          bundle --version
+          echo "=== Bundle Environment ==="
+          bundle env
+          echo "=== Gemfile.lock ==="
+          cat Gemfile.lock
+          echo "=== Bundle Install (verbose) ==="
+          bundle install --verbose
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
