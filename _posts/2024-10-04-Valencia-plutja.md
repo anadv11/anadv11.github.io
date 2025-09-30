@@ -7,16 +7,18 @@ excerpt: "In my country, rain doesn't know how to rain. Either it rains too litt
 categories: thoughts
 tags: featured
 thumbnail: assets/img/vlcthumb.png
-# tabs: true
+tabs: true
 ---
 
-<!-- {% tabs language %}
+{% tabs language %}
 
-{% tab language Catalan %} -->
+{% tab language Catalan %}
 
 "_Al meu pais, la pluja no sap ploure. O plou poc, o plou massa. Si plou poc és la sequera si plou massa, es a catàtrofe._"  
 
 Així comença una de les cançons que més he cantat a la meua vida. I quanta raó tenia Raimon…
+
+<!--more-->
 
 Molta gent que em coneix sap que, tot i que me'n vaig anar fa quasi sis anys, parle molt sovint i amb molt d'orgull de València, ma casa. De l'albufera, dels tarongers, de la nostra llengua, del barri del carme, la nostra literatura, la paella i el sol. Tinc molt de mal al cor, i m’agradaria tant, tant estar a casa i poder ajudar, en qualsevol cosa... Però com no puc, escric.
 
@@ -91,6 +93,6 @@ Let's understand natural disasters as a political phenomenon.
 
 Let's demand change, now.
 
-<!-- {% endtab %}
+{% endtab %}
 
-{% endtabs %} -->
+{% endtabs %}
