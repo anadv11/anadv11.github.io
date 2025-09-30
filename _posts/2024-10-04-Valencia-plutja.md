@@ -3,6 +3,7 @@ layout: post
 title: La pluja no sap ploure.
 date: 2024-10-04 21:01:00
 description: Reflections on (un)natural disaster.
+excerpt: "In my country, rain doesn't know how to rain. Either it rains too little, or it rains too much. Reflections on climate change and natural disasters in Valencia."
 categories: thoughts
 tags: featured
 thumbnail: assets/img/vlcthumb.png
