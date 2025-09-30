@@ -6,10 +6,10 @@ description: Reflections on (un)natural disaster.
 categories: thoughts
 tags: featured
 thumbnail: assets/img/vlcthumb.png
-# tabs: true
+tabs: true
 ---
 
-<!-- {% tabs language %}
+{% tabs language %}
 
 {% tab language Catalan %}
 
