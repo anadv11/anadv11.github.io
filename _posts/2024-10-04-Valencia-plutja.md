@@ -6,12 +6,12 @@ description: Reflections on (un)natural disaster.
 categories: thoughts
 tags: featured
 thumbnail: assets/img/vlcthumb.png
-tabs: true
+# tabs: true
 ---
 
-{% tabs language %}
+<!-- {% tabs language %}
 
-{% tab language Catalan %}
+{% tab language Catalan %} -->
 
 "_Al meu pais, la pluja no sap ploure. O plou poc, o plou massa. Si plou poc és la sequera si plou massa, es a catàtrofe._"  
 
@@ -90,6 +90,6 @@ Let's understand natural disasters as a political phenomenon.
 
 Let's demand change, now.
 
-{% endtab %}
+<!-- {% endtab %}
 
-{% endtabs %}
+{% endtabs %} -->
