@@ -11,7 +11,7 @@ thumbnail: assets/img/vlcthumb.png
 
 <!-- {% tabs language %}
 
-{% tab language Catalan %} -->
+{% tab language Catalan %}
 
 "_Al meu pais, la pluja no sap ploure. O plou poc, o plou massa. Si plou poc és la sequera si plou massa, es a catàtrofe._"  
 
@@ -58,9 +58,9 @@ Demanem canvis, ja.
 
 **English**
 
-<!-- {% endtab %}
+{% endtab %}
 
-{% tab language English %} -->
+{% tab language English %}
 
 “_In my country, rain doesn’t know how to rain. Either it rains too little, or it rains too much. If it rains little there is drought if it rains too much, it is in a catastrophe._“ 
 
@@ -90,6 +90,6 @@ Let's understand natural disasters as a political phenomenon.
 
 Let's demand change, now.
 
-<!-- {% endtab %}
+{% endtab %}
 
-{% endtabs %} -->
+{% endtabs %}
