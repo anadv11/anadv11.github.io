@@ -25,6 +25,14 @@ jobs:
           ruby-version: 3.1
           bundler-cache: true
           bundler-version: latest
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
       - name: Debug Bundler
         run: |
           echo "=== Ruby Version ==="
