@@ -33,6 +33,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+      - name: Install Jupyter
+        run: |
+          pip install jupyter
       - name: Debug Bundler
         run: |
           echo "=== Ruby Version ==="
