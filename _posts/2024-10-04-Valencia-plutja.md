@@ -57,9 +57,6 @@ Entengam els desastres naturals com un fenòmen politic.
 
 Demanem canvis, ja.
 
----
-
-**English**
 
 {% endtab %}
 
@@ -75,9 +72,20 @@ Every time someone visits Valencia, I talk, or used to talk, often about the Tur
 
 Climate change isn’t solely responsible for phenomena like this. It happened before. But it certainly makes them more frequent, and the reality is that we have to recognize it. Besides drastically reducing our environmental impact, we need to start thinking about adaptation. Extreme hydrological events will happen more and more frequently (see figure 1).
 
+Figure 1: 
+<div class="text-center">
+{% include figure.liquid path="assets/img/vlc1.png" title="Figure 1" class="img-fluid rounded z-depth-1" style="max-width: 66.67%;" %}
+</div>
+
 Homes and streets are filled with mud, but so is the public debate. Information and misinformation rain down in buckets, polarizing public opinion. But there are some things that are clear:
 
 We need to rethink our infrastructure and how we build. During the real estate bubble up until 2007, 30% of the homes affected by the cold drop were built in areas assessed as flood zones (see figure 2). Nothing happens—until everything happens, and it’s always the same people who lose.
+
+Figure 2: 
+<div class="text-center">
+{% include figure.liquid path="assets/img/vlc2.png" title="Figure 2" class="img-fluid rounded z-depth-1" style="max-width: 66.67%;" %}
+</div>
+https://x.com/datadista/status/1853064670103359845
 
 Many of the consequences of this cold drop are the result of human decisions. Natural disasters are political phenomena. Prevention and response can erase the word “disaster” and leave it as simply “rain.”
 
