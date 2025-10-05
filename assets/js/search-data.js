@@ -84,6 +84,61 @@ ninja.data = [{
           description: "other stuff",
           section: "Art",handler: () => {
               window.location.href = "/art/coming%20soon/";
+            },},{id: "art-canal",
+          title: 'Canal',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/canal/";
+            },},{id: "art-election",
+          title: 'Election',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/election/";
+            },},{id: "art-ice-cream",
+          title: 'Ice Cream',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/ice_cream/";
+            },},{id: "art-no-doy-crédito",
+          title: 'No doy crédito',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/no_doy_credito/";
+            },},{id: "art-paris-mirrors",
+          title: 'Paris Mirrors',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/paris_mirrors/";
+            },},{id: "art-paris-moving",
+          title: 'Paris Moving',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/paris_moving/";
+            },},{id: "art-paris-university",
+          title: 'Paris University',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/paris_uni/";
+            },},{id: "art-ice",
+          title: 'Ice',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/penguin1/";
+            },},{id: "art-penguin-soul",
+          title: 'Penguin soul',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/penguin2/";
+            },},{id: "art-self-portrait",
+          title: 'Self Portrait',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/self_portrait1/";
+            },},{id: "art-self-portrait-ii",
+          title: 'Self Portrait II',
+          description: "Another perspective on self",
+          section: "Art",handler: () => {
+              window.location.href = "/art/self_portrait2/";
             },},{id: "art-berlin",
           title: 'Berlin',
           description: "",
