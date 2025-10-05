@@ -22,9 +22,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
+          ruby-version: "3.4.2"
           bundler-cache: true
-          bundler-version: latest
       - name: Install ImageMagick
         run: |
           sudo apt-get update
