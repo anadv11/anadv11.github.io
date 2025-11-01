@@ -89,11 +89,6 @@ ninja.data = [{
           description: "",
           section: "Art",handler: () => {
               window.location.href = "/art/canal/";
-            },},{id: "art-election",
-          title: 'Election',
-          description: "",
-          section: "Art",handler: () => {
-              window.location.href = "/art/election/";
             },},{id: "art-ice-cream",
           title: 'Ice Cream',
           description: "",
@@ -237,7 +232,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%61%6E%61.%64%69%61%7A%76%69%64%61%6C@%73%63%69%65%6E%63%65%73%70%6F.%66%72", "_blank");
+          window.open("mailto:%61%6E%61.%64%69%61%7A-%76%69%64%61@%75%62.%65%64%75", "_blank");
         },
       },{
         id: 'social-linkedin',
