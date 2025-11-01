@@ -9,5 +9,5 @@ category: collage
 medium: Paper
 year: 2024
 importance: 1
-tags: [paris, academia]
+tags: [paris]
 ---
