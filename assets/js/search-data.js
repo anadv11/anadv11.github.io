@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/art/";
           },
-        },{id: "post-la-pluja-no-sap-ploure",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2024-01-10-Cop28/";
+          
+        },
+      },{id: "post-la-pluja-no-sap-ploure",
         
           title: "La pluja no sap ploure.",
         
