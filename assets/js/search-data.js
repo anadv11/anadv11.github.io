@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/art/";
           },
-        },{id: "post-la-pluja-no-sap-ploure",
+        },{id: "post-writing-slow-in-times-of-tiktok-and-ai",
+        
+          title: "Writing slow in times of TikTok and AI",
+        
+        description: "Or why I want to have a blog",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/WebsitesAI/";
+          
+        },
+      },{id: "post-la-pluja-no-sap-ploure",
         
           title: "La pluja no sap ploure.",
         
