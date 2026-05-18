@@ -242,6 +242,11 @@ ninja.data = [{
           description: "Research presentation on IPCC neutrality claims and discourse analysis",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/talk_1/";
+            },},{id: "teaching-cómo-acabar-con-la-economía-fósil-tratado-sobre-combustibles-fósiles-y-herramientas-para-la-transición-justa-garantía-de-empleo-público-y-renta-básica-de-cuidados",
+          title: '¿Cómo acabar con la economía fósil? Tratado sobre combustibles fósiles y herramientas para...',
+          description: "Webinar internacional (Research &amp; Degrowth &amp; Alianza por el Clima)",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/talk_3/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',
