@@ -227,6 +227,11 @@ ninja.data = [{
           description: "A sufficiency summer school",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/course_1/";
+            },},{id: "teaching-reimagining-paris-sufficiency-in-practice",
+          title: 'Reimagining Paris: Sufficiency in Practice',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/course_2/";
             },},{id: "teaching-to-what-extent-are-debt-for-nature-swaps-compatible-with-the-buen-vivir-concept-in-ecuador",
           title: 'To what extent are Debt for Nature Swaps compatible with the Buen Vivir...',
           description: "",
@@ -247,6 +252,11 @@ ninja.data = [{
           description: "Webinar internacional (Research &amp; Degrowth &amp; Alianza por el Clima)",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/talk_3/";
+            },},{id: "teaching-from-inventories-to-interactions-designing-a-degrowth-policy-mix-for-europe",
+          title: 'From Inventories to Interactions: Designing a Degrowth Policy Mix for Europe',
+          description: "Research presentation on degrowth policy design and a policy mix for Europe",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/talk_4/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',
