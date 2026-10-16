@@ -257,6 +257,11 @@ ninja.data = [{
           description: "Research presentation on degrowth policy design and a policy mix for Europe",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/talk_4/";
+            },},{id: "teaching-forging-eco-social-policy-packages-for-a-degrowth-transition-policy-sequencing-narratives-and-political-potential-of-degrowth-policy-proposals",
+          title: 'Forging eco-social policy packages for a degrowth transition: Policy sequencing narratives and political...',
+          description: "Open academic paper session on just transitions, fairness narratives, and degrowth policy packages",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/talk_5/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',
