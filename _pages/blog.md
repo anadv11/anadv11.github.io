@@ -109,8 +109,8 @@ pagination:
       {% assign postlist = site.posts %}
     {% endif %}
 
-    <!-- Only show featured posts (birthday post) -->
-    {% assign featured_posts = postlist | where: "tags", "featured" %}
+    <!-- Featured writing and book reviews (generated from _books with full reviews) -->
+    {% assign featured_posts = postlist | where_exp: "post", "post.tags contains 'featured' or post.tags contains 'reviews'" %}
     {% for post in featured_posts %}
 
     {% if post.external_source == blank %}
