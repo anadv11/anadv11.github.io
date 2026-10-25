@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/art/";
           },
-        },{id: "post-writing-slow-in-times-of-tiktok-and-ai",
+        },{id: "post-the-reverse-centaur-39-s-guide-to-life-after-ai-how-to-think-about-artificial-intelligence-before-it-39-s-too-late",
+        
+          title: "The Reverse Centaur&#39;s Guide to Life After AI: How to Think About Artificial...",
+        
+        description: "I just finished &quot;The reverse centaur&#39;s guide to life after AI&quot; by Cory Doctorow, published by Verso books.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/books/doctorow%20reverse%20centaur/";
+          
+        },
+      },{id: "post-writing-slow-in-times-of-tiktok-and-ai",
         
           title: "Writing slow in times of TikTok and AI",
         
@@ -67,6 +78,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/WebsitesAI/";
+          
+        },
+      },{id: "post-how-to-fall-in-love-with-the-future",
+        
+          title: "How to Fall in Love with the Future",
+        
+        description: "In the midst of rising fascism, never-ending climate disaster and seas of doom and pessimism, _How to Fall in Love with the Future_ is the kind of book all of us should be aspiring to write. Rob Hopkins deliberately leaves aside everything that&#39;s wrong (which he only briefly t...",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/books/hopkins%20love%20future/";
           
         },
       },{id: "post-la-pluja-no-sap-ploure",
@@ -80,6 +102,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/Valencia-plutja/";
           
         },
+      },{id: "post-post-growth",
+        
+          title: "Post-growth",
+        
+        description: "I found this book midway through my degrowth journey. I expected a fierce and well-constructed academic critique and in addition to that, I found eye-watering stories and life lessons. A well-written book that is good for both newcomers to the movement and seasoned post-growth...",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/books/jackson%20post-growth/";
+          
+        },
       },{id: "post-it-s-not-only-about-gigawatts",
         
           title: "It’s Not Only About Gigawatts",
@@ -89,6 +122,39 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/Cop28/";
+          
+        },
+      },{id: "post-another-now",
+        
+          title: "Another Now",
+        
+        description: "This book plays with the past the present and the future of the reader and of the main characters. It manages to set up the principles of an alternative future in a great level of detail given how short it is.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/books/varoufakis%20another%20now/";
+          
+        },
+      },{id: "post-marx-in-the-anthropocene-towards-the-idea-of-degrowth-communism",
+        
+          title: "Marx in the Anthropocene: Towards the Idea of Degrowth Communism",
+        
+        description: "This is a piece that attempts to be a re-interpretation of late Marx, and his move away from eurocentrism and productivism. However, it is much more than that. It brings together the most relevant discussions in the environmental left, and forgotten 20th century authors in ord...",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/books/marx%20anthropocene/";
+          
+        },
+      },{id: "post-paresse-pour-tous",
+        
+          title: "Paresse pour tous",
+        
+        description: "Paresse pour tous i a fiction book where Klent narrates Emilien Long&#39;s presidential campaign in France. Emilien, fictional nobel prize winner that reminds us of a few other French economists, sets to defend *the right to laziness in the 21st century* and proposes a three day w...",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/books/klent%20paresse%20pour%20tous/";
           
         },
       },{id: "art-le-déficit",
