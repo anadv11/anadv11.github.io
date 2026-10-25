@@ -161,6 +161,11 @@ ninja.data = [{
           description: "",
           section: "Art",handler: () => {
               window.location.href = "/art/Berlin/";
+            },},{id: "books-the-reverse-centaur-39-s-guide-to-life-after-ai-how-to-think-about-artificial-intelligence-before-it-39-s-too-late",
+          title: 'The Reverse Centaur&amp;#39;s Guide to Life After AI: How to Think About Artificial...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/doctorow%20reverse%20centaur/";
             },},{id: "books-doppelganger-a-trip-into-the-mirror-world",
           title: 'Doppelganger: A Trip into the Mirror World',
           description: "",
