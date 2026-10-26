@@ -30,6 +30,6 @@ I’m currently doing a PhD in post‑growth policy at the University of Barcelo
 
 My aim is to analyse post-growth policies and their role in transitions. I am interested in creating space for alternatives to flourish and on nourishing better futures. I have a multi-disciplinary background and I often draw from (Critical) Political Economy, Geography, Ecological Economics and STS in my work. Methodologically, I am interested in computational social science for text analysis.
 
-In the past, I have worked as a policy researcher at the OECD and REN21, focusing on issues of energy and climate negotiations in the framework of the UNFCCC. I graduated from Sciences Po and the University of Edinburgh.
+I have worked as a policy researcher at the European Commission, OECD and REN21, focusing on issues of beyond GDP indicators, renewable energy and climate negotiations in the framework of the UNFCCC. I graduated from Sciences Po and the University of Edinburgh.
 
 I am an avid crossword solver, poetry writer, crafter and sport-doer. I also love reading.
