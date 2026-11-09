@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m currently doing a PhD in post‑growth policy at the University of Barcelona under the supervision of [Federico Demaria](https://www.ub.edu/school-economics/researchers/demaria-federico) and [Filka Sekulova](https://recerca.uoc.edu/investigadores/882611/detalle?lang=en) as part of the [MAPS project](https://mapsresearch.eu).
+I’m currently doing a PhD in post‑growth policy at the University of Barcelona under the supervision of [Federico Demaria](https://www.ub.edu/school-economics/researchers/demaria-federico) and [Filka Sekulova](https://recerca.uoc.edu/investigadores/882611/detalle?lang=en) as part of the [MAPS project](https://mapsresearch.eu). I am also a member of Research and Degrowth and a teaching assistant at Sciences Po.
 
 My aim is to analyse post-growth policies and their role in transitions. I am interested in creating space for alternatives to flourish and on nourishing better futures. I have a multi-disciplinary background and I often draw from (Critical) Political Economy, Geography, Ecological Economics and STS in my work. Methodologically, I am interested in computational social science for text analysis.
 
